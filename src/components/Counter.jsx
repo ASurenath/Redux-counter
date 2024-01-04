@@ -28,7 +28,7 @@ function Counter() {
                     <button onClick={()=>dispatch(increment())} className='btn btn-warning'>Increment</button>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-evenly',width:'100%' }}>
-                    <input type='number' onChange={e=>setamount(e.target.value)} value={amount} placeholder='Enter the amount to increment' className='form-controll m-2'/>
+                    <input type='number' onChange={e=>setamount(e.target.value)} value={amount} placeholder='Enter the amount to increment' className='form-control m-2'/>
                     <button onClick={handleIncrementByAmount} className='btn btn-warning p-1  m-2'>Increment by amount</button>
                 </div>
             </div>
